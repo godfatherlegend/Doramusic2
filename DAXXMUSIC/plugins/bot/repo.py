@@ -6,25 +6,25 @@ from config import BOT_USERNAME
 start_txt = """**
 ✦ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !
 
-✦ ɪ ᴀᴍ ๛ɴ ʏ ᴋ ᴀ ᴀ ༗
+✦ ɪ ᴀᴍ ๛sᴛʀᴀɴɢᴇʀ༗
 
-✦ ᴛʜɪs ɪs ɴʏᴋᴀᴀ ᴍᴜsɪᴄ ʙᴏᴛ ᴏғғɪᴄɪᴀʟ ʀᴇᴘᴏ.
+✦ sᴛʀᴀɴɢᴇʀ ᴘᴀᴘᴀ ʜ ʙʜᴀɪ ᴛᴜᴍ sᴀʙᴋᴇ .
 
-✦ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ๛ɴ ʏ ᴋ ᴀ ᴀ ༗ ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.
+✦ ʜᴇʏ ɪ ᴀᴍ ᴀʟᴇxᴀ  ᴍᴀᴅᴇ ʙʏ → sᴛʀᴀɴɢᴇʀ ᴏᴘ✨.
 **"""
 
 
 
 
-@app.on_message(filters.command("repo"))
+@app.on_message(filters.command("stranger"))
 async def start(_, msg):
     buttons = [
         [ 
           InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/the_friendz"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/anujkumarroy/ROYMUSIC"),
+          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/strangers_bots"),
+          InlineKeyboardButton("ᴅᴍ ᴏғ sᴛʀᴀɴɢᴇʀ ᴘᴀᴘᴀ ", url="https://t.me/NoMoreTyMWaStE"),
           ],
     ]
     
